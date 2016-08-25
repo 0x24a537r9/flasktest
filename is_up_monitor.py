@@ -13,6 +13,5 @@ def poll():
   if not is_up:
     polling_monitor.alert('Uh-oh')
 
-print 'sdfasdf'
 polling_monitor.callbacks.append(poll)
 polling_monitor.start()
